@@ -1,0 +1,102 @@
+body {
+    background-color: #f1f1f1;
+  }
+  
+  .todo-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-section {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .input-field {
+    flex: 1;
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-btn,
+  .update-btn,
+  .cancel-btn {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .add-btn:hover,
+  .update-btn:hover,
+  .cancel-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .todo-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .todo-list li {
+    margin: 8px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .todo-list li.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+  }
+  
+  .btn-group button {
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ccc;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .btn-edit {
+    color: #4b8a08;
+  }
+  
+  .btn-remove {
+    color: #8a0808;
+  }
+  
+  .btn-done {
+    color: #4b8a08;
+  }
+  
+  .btn-group:hover {
+    opacity: 0.8;
+  }
+
+
+
+
+
